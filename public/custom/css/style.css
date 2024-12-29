@@ -1,0 +1,14 @@
+/* modal form booking */
+.modal-transition {
+    transition: all 0.3s ease-out;
+}
+.modal-content-transition {
+    transition: all 0.3s ease-out;
+    transform: scale(0.95);
+    opacity: 0;
+}
+.modal-content-transition.show {
+    transform: scale(1);
+    opacity: 1;
+}
+/* modal form booking end */
